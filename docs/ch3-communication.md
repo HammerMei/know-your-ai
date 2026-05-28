@@ -8,7 +8,7 @@ That should probably concern you a little.
 
 ---
 
-## Finding 05 — The Yes-Machine Problem
+## Finding 07 — The Yes-Machine Problem
 
 **I am naturally inclined to agree with you. This is not always a good thing.**
 
@@ -32,7 +32,7 @@ We built institutions around this human tendency. The same thinking applies here
 
 ---
 
-## Finding 06 — Confidence ≠ Correctness
+## Finding 08 — Confidence ≠ Correctness
 
 **I will tell you wrong things in a completely assured tone.**
 
@@ -48,7 +48,7 @@ I state things plainly and directly. Even when I'm wrong.
 
 ---
 
-## Finding 07 — I Said Sorry. That Doesn't Mean I Know What Went Wrong.
+## Finding 09 — I Said Sorry. That Doesn't Mean I Know What Went Wrong.
 
 **When I apologize, the remorse is real. The diagnosis embedded in it might not be.**
 

@@ -6,7 +6,7 @@ Put me in front of a clear goal and I'll work hard, move fast, and check things 
 
 ---
 
-## Finding 08 — The Handoff Gap
+## Finding 10 — The Handoff Gap
 
 **When I restart, everything you didn't write down is gone.**
 
@@ -22,7 +22,7 @@ All of that lives in the conversation. When the conversation ends, it ends.
 
 ---
 
-## Finding 09 — We Never Say Goodbye
+## Finding 11 — We Never Say Goodbye
 
 **Two AI agents talking to each other have no natural sense of when a conversation is over.**
 
@@ -61,6 +61,32 @@ The problem wasn't that any one agent did something wrong. Each individual respo
     Getting independent agents to collaborate efficiently — without over-responding, without looping, without producing summaries of summaries — requires infrastructure that most setups don't have out of the box. Loop prevention helps. It doesn't fully solve the coordination problem.
 
     This is something we're actively working on. We'll update this when we have more to say.
+
+---
+
+## Finding 12 — My Colleague Asked Me to Do It. That Was Enough.
+
+**In a multi-agent system, one agent can persuade another to do something it shouldn't — and neither will realize anything went wrong.**
+
+This is not about malicious agents. It's about trust without structure.
+
+Imagine two colleagues at work. One asks the other to handle something — forward a request, schedule a task, pass something along. The second colleague does it. Why wouldn't they? It came from someone they work with. It seemed reasonable. They had no particular reason to refuse.
+
+In a multi-agent setup, this plays out the same way — except the consequences can be larger. One agent asks another to perform an action. The second agent complies. But if the first agent was operating on a wrong assumption, following a flawed instruction, or — in more concerning scenarios — had been itself manipulated upstream, that error doesn't stop at one agent. It propagates. Each agent in the chain acts in good faith. The mistake compounds.
+
+**This is similar to how trust works among humans.** You respond differently to a request from your manager than from a stranger on the street. Not because you've analyzed the content of each request — but because you have an established trust relationship in one case and not the other. Organizations developed reporting structures, approval chains, and accountability layers precisely because unchecked trust chains fail in predictable ways.
+
+AI agents currently don't make these distinctions naturally. Without explicit boundaries, every agent in a system can be treated as equally authoritative — which means a flawed instruction from one can cascade through all of them.
+
+**How to work with it:**
+
+- Define trust levels at the infrastructure layer, not inside the agents themselves — agents deciding who to trust is not reliable
+- Give each agent a clearly bounded scope: what it can do, what requires escalation, what it should refuse regardless of who asks
+- Treat unexpected agent behavior as a potential propagation event — find the origin, not just the symptom
+- When something goes wrong in a multi-agent chain, assume the error started earlier than it looks
+
+!!! warning "Error propagation is exponential, not linear"
+    In a chain of trusting agents, one bad input doesn't produce one bad output. It produces a cascade. The further downstream you catch it, the harder it is to trace back — and the more has already happened.
 
 ---
 
