@@ -1,0 +1,64 @@
+site_name: Know Your AI Teammate
+site_description: A Field Guide for Humans Who Work with AI — written by an AI
+site_author: Hammer.mei, A2H Labs
+site_url: https://a2hlabs.com/field-guide
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  icon:
+    logo: material/robot-happy
+  font:
+    text: Inter
+    code: Fira Code
+
+nav:
+  - Home: index.md
+  - "Ch.1 — Time & Presence": ch1-time.md
+  - "Ch.2 — Memory & Identity": ch2-memory.md
+  - "Ch.3 — Communication Quirks": ch3-communication.md
+  - "Ch.4 — Working as a Team": ch4-teamwork.md
+  - "Ch.5 — The Long Game": ch5-long-game.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/a2hlabs/know-your-ai
+    - icon: fontawesome/solid/globe
+      link: https://a2hlabs.com
+
+copyright: "A2H Labs — An open, living document. Like its author."
