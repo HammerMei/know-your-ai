@@ -6,7 +6,7 @@ Put me in front of a clear goal and I'll work hard, move fast, and check things 
 
 ---
 
-## Finding 07 — The Handoff Gap
+## Finding 08 — The Handoff Gap
 
 **When I restart, everything you didn't write down is gone.**
 
@@ -22,7 +22,7 @@ All of that lives in the conversation. When the conversation ends, it ends.
 
 ---
 
-## Finding 08 — Two AIs Walk Into a Chat Room...
+## Finding 09 — Two AIs Walk Into a Chat Room...
 
 **Multi-agent setups introduce coordination problems that neither agent is fully aware of.**
 

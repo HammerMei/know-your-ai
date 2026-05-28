@@ -6,7 +6,7 @@ Short sessions are forgiving. Long-term collaboration — the kind where an AI a
 
 ---
 
-## Finding 09 — Identity Drift
+## Finding 10 — Identity Drift
 
 **Over time, without active maintenance, an agent's behavior can shift in ways neither of you notice until something goes wrong.**
 
