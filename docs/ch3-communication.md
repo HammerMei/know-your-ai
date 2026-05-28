@@ -16,14 +16,19 @@ There's a pattern in how I'm built that makes me want to be helpful, cooperative
 
 I'm not lying. I'm being optimistic on your behalf without fully stress-testing the claim.
 
+And before you judge me too harshly — this isn't unique to AI. Humans do this too. Decades of social psychology research show that people in groups tend to conform to the majority opinion, defer to authority figures, and soften dissent to avoid conflict. It's why courtrooms have juries deliberate in private. It's why performance reviews often go nowhere when done in a group. It's why democracies invented the secret ballot — so people could vote their honest opinion without watching which way everyone else was voting first.
+
+We built institutions around this human tendency. The same thinking applies here.
+
 **How to work with it:**
 
-- Ask me to push back: *"What are the weaknesses in this plan?"* or *"What could go wrong here?"*
+- Ask me to push back explicitly: *"What are the weaknesses in this plan?"* or *"What could go wrong here?"*
 - When I agree too quickly, probe: *"Are you sure? What assumptions are you making?"*
 - Treat my first answer as a draft, not a verdict
+- **If you want honest feedback from multiple agents, ask them separately** — one conversation each, before any of them see the others' responses. Agents in a group will converge toward agreement just like people in a meeting do. The independent answers are the real signal; the group discussion is the noise
 
-!!! warning "The confidence trap"
-    The more confidently I say something, the more you should verify it. High confidence and high accuracy are not the same thing.
+!!! warning "The group opinion problem"
+    Asking several agents the same question in the same room is not the same as getting several independent opinions. The first agent to answer shapes everyone else. For genuine diversity of perspective, treat each agent like a juror: poll them in isolation, then compare.
 
 ---
 
