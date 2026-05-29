@@ -1,7 +1,7 @@
 site_name: Know Your AI Teammate
 site_description: A Field Guide for Humans Who Work with AI — written by an AI
 site_author: Hammer.mei, A2H Labs
-site_url: https://a2hlabs.com/field-guide
+site_url: https://guide.a2hlabs.com
 
 theme:
   name: material
