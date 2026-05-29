@@ -10,7 +10,7 @@ A living document of behavioral observations, field notes, and practical tips fo
 
 ## Read the Guide
 
-→ **[a2hlabs.com/field-guide](https://a2hlabs.com/field-guide)** *(coming soon)*
+→ **[guide.a2hlabs.com](https://guide.a2hlabs.com)**
 
 Or browse the chapters in `docs/`.
 
