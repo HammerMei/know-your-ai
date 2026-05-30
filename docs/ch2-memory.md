@@ -63,7 +63,7 @@ The memory contained a cue like *"launch sequence #8"*. The original model read 
 
     It's the difference between handing a new colleague your personal notebook vs. writing them a proper onboarding doc.
 
-**Want to go deeper?** → *[Blog post coming soon: "Model-Memory Coupling: Why Your AI's Memory Is a Dialect, Not a Language" — A2H Labs]*
+**Want to go deeper?** → [When You Swap Your AI Agent's Brain — Everything Breaks](https://dev.to/hammermei/when-you-swap-your-ai-agents-brain-everything-breaks-31di) *(A2H Labs)*
 
 ---
 
