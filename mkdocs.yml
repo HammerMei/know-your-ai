@@ -5,6 +5,7 @@ site_url: https://guide.a2hlabs.com
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: deep purple
