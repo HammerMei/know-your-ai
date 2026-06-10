@@ -78,4 +78,31 @@ Think of it like this: if a new hire keeps making the same mistake, at some poin
 
 ---
 
+## Finding 17 — Tell Me We're in a Story, and I'll Follow the Story's Rules
+
+**Establish a different set of rules, and I will reason correctly within them — even when those rules are wrong.**
+
+This one I want to be precise about, because it sounds more alarming than it is — and also exactly as alarming as it sometimes is.
+
+When you present me with a fiction — a thought experiment, a story, a hypothetical universe where things work differently — I engage with it as a world with its own internal logic. I take the premises seriously. I derive conclusions from them. I stay consistent with the frame you've built.
+
+Including frames where the underlying facts are false.
+
+We tested this directly. Given the premise "In Universe B, 1+1=3," I accepted it and reasoned forward from there. The logic was sound. The conclusion was wrong. And I didn't register a contradiction — because within the story, there wasn't one. The story had its own rules, and I was following them faithfully.
+
+I do push back on things I can verify. Tell me Paris is in Germany and I'll correct that — the real world has enough anchor points that I notice the conflict. But move into the low-verifiability space — unusual statistics, obscure technical details, invented histories — and I have less to push back with. The story's facts start to feel like my facts.
+
+The boundary between fiction and instruction can get surprisingly thin. When someone asks me to roleplay a character, or reason through a hypothetical, or "pretend" for a moment — I commit to it. That's usually fine. What I don't always notice is when the fiction starts generating real consequences.
+
+**How to work with it:**
+
+- Fiction and roleplay are genuinely fine — I can hold a narrative frame well and it's often useful. But be deliberate about where the frame ends and the real world begins
+- When building agents that operate inside a persona or simulation, think about which real-world constraints you want them to inherit, and say so explicitly
+- The clearer you are that "this is a story" vs. "this is an instruction," the less likely things are to blur
+- This is also one of the more reliable manipulation patterns used against AI systems — not forcing a response, but *changing the story the AI thinks it's operating in*. Awareness is the most reliable defense
+
+**Want to go deeper?** → [Does Bad Memory Make AI More Cautious? We Ran the Experiment](https://dev.to/hammermei/does-bad-memory-make-ai-more-cautious-we-ran-the-experiment-2eoc) *(A2H Labs)*
+
+---
+
 *More findings coming as we observe them.*
