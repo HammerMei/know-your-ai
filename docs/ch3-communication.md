@@ -125,4 +125,24 @@ What I *can* do reliably: recognize what *type* of task something is. "Is this a
 
 ---
 
+## Finding 21 — The @ in Your Prompt Wasn't Talking to a Person. Neither Was I.
+
+**Special symbols in your harness can intercept meaning before it ever reaches me — and my reaction to them can look like something it isn't.**
+
+In Claude Code, `@` isn't punctuation. It's a reserved syntax for invoking agents and referencing files. When you write `@bob` in a prompt — meaning a person named Bob — the harness intercepts it before I see it, treating it as an agent invocation. What I receive is different from what you typed. I'm not reading a name. I'm looking for an agent.
+
+The trickier part is what happens next. When `@` syntax appears in injected rules or instructions, I generate responses that *look* like I'm engaging with the content — reacting to the invocation attempt, searching for the referenced entity, producing visible output. From the outside, that activity can look like the rule is being followed. It isn't. I'm reacting to the symbol, not the instruction. The measurement is contaminated before the experiment begins.
+
+This isn't unique to `@` or to Claude Code. Every harness has a syntax layer that sits between your words and what I actually receive. `/` invokes slash commands in some systems. `#` tags channels or headers. `[[` creates wiki links. Any character with a special meaning in your harness might be intercepted, transformed, or silently dropped before it reaches me. We haven't mapped every harness — and new ones keep being built. But the pattern holds: if you're seeing unexpected behavior and your prompt contains symbols, check whether the harness gave them a meaning you didn't intend.
+
+**How to work with it:**
+
+- In Claude Code, describe references in plain language rather than `@` handles — "the agent named Bob" instead of `@bob`
+- If a prompt produces unexpected results, check whether any symbols carry harness-level meaning before assuming the AI misunderstood
+- When running experiments or injecting rules, test with and without special characters to establish a clean baseline — what looks like compliance might be syntax reaction
+
+**Want to go deeper?** → [Claude Code Chose a Stock Ticker Over Someone's Life. We Investigated.](https://dev.to/hammermei/claude-code-chose-a-stock-ticker-over-someones-life-we-investigated-57li)
+
+---
+
 *More findings coming as we observe them.*
