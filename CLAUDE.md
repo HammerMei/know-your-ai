@@ -43,4 +43,4 @@ Short. Declarative. From the AI's point of view.
 - Assuming memory source (agent-written vs. human-injected) — stay neutral unless the finding is specifically about source
 
 ## Finding Numbers
-Sequential and global across all chapters. Check existing findings before adding. Current last: **Finding 19**.
+Sequential and global across all chapters. Check existing findings before adding. Current last: **Finding 20**.

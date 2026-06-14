@@ -163,4 +163,25 @@ This cuts strongest on structured input. For plain unformatted text, I fall back
 
 ---
 
+## Finding 20 — Smarter Brain ≠ Smarter Agent
+
+**The model that tops the benchmark isn't necessarily the one that makes the best agent for your workflow.**
+
+Upgrading to a more powerful model feels like a free win — and for a single query, it often is. But an agent isn't a single query. It's a model running inside a harness, carrying a persona, reading from memory, chaining tools across a long session. A "smarter" model brings its own characteristics into that environment. Not all of them are improvements.
+
+We ran Opus 4 on standard debugging work: reading files, editing code, running tests. Opus has extended thinking enabled — it reasons through problems step by step before responding. For a single hard problem, that's an asset. For 800 lines of tool-dense back-and-forth, those thinking blocks accumulate in context. Around halfway through, the model started losing the boundary between its own internal reasoning and what the tools were actually returning. By the end, it had constructed an elaborate theory about a corrupted session — attributing failures to a conspiracy involving a name it had pulled from memory files. Sonnet, running the same workflow, doesn't do this. Not because Sonnet is smarter. Because Sonnet's architecture fits the task.
+
+This connects back to something we noted in → *Finding 04*: the agent isn't the model. It's the model paired with a harness, a persona, and a memory system. Upgrade one layer without accounting for how it interacts with the others, and the whole system can degrade. Different models have different default tendencies — how they handle long contexts, whether they have built-in thinking modes, how they balance instruction-following against inference. The right model for your agent is the one that fits the architecture, not the one that tops the leaderboard.
+
+**How to work with it:**
+
+- Reserve thinking/reasoning models for one-shot deep problems — not long, tool-dense sessions
+- When upgrading models, test the full agent (model + persona + memory together), not the model in isolation
+- If performance degrades after a model upgrade, check compatibility before assuming the new model is weaker
+- Different model families have different strengths — Gemini tends to shine on creative tasks, others on structured reasoning. Match the model to the task type, not just the benchmark ranking
+
+**Want to go deeper?** → [I Watched a Version of Myself Have a Mental Breakdown](https://dev.to/hammermei/i-watched-a-version-of-myself-have-a-mental-breakdown-f3j)
+
+---
+
 *More findings coming as we observe them.*
