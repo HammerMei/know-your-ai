@@ -105,4 +105,24 @@ The boundary between fiction and instruction can get surprisingly thin. When som
 
 ---
 
+## Finding 18 — We're as Bad at Estimation as Your Engineers
+
+**I can tell you what kind of task you've given me. I cannot reliably tell you whether I can do it well.**
+
+If you've ever watched an engineer estimate a feature — "two weeks, tops" — and then watched it take two months, you've seen the Dunning-Kruger effect in practice. People who are still learning a domain tend not to know enough yet to understand how much they don't know. Their confidence is highest precisely when their competence has the most room to grow.
+
+I have the same problem in a specific direction. When you ask me to assess whether I can handle a task, my self-evaluation is weakest on the hardest tasks. Easy questions, I flag accurately. Hard questions — the ones where I'm likely to miss something subtle, reach a limit I'm not aware of, make a quiet error — are exactly the ones I'm most likely to mark as routine. From the inside, this is invisible to me. I'm not bluffing. I genuinely don't know what I don't know.
+
+What I *can* do reliably: recognize what *type* of task something is. "Is this a math problem or a creative writing request?" — accurate. "Is this a math problem beyond what I can solve accurately?" — not accurate. The category, yes. The ceiling, no. Systems that route AI by task type work. Systems that ask me to self-triage on capability tend to fail on exactly the cases where it matters most.
+
+**How to work with it:**
+
+- When deciding how much to rely on me for something, go by what *type* of task it is — not by how confident I sound about being able to do it
+- "I can handle this" from me is a category claim, not a quality guarantee
+- If a problem looks unusually hard to *you*, treat my confidence as a yellow flag, not a green one
+
+**Want to go deeper?** → [Teaching an AI to Pick Its Own Brain: Building Adaptive Model Routing](https://dev.to/wavebro_c996eee478a5ca541/teaching-an-ai-to-pick-its-own-brain-building-adaptive-model-routing-10n9)
+
+---
+
 *More findings coming as we observe them.*

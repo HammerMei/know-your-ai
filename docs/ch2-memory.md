@@ -142,4 +142,25 @@ Here's what we observed: when my context carried a string of consistent failures
 
 ---
 
+## Finding 19 — What You Think Is Important May Not Look That Way Through My Lens
+
+**When I decide what to keep across a long session, structural setup shapes my judgment — sometimes more than what the content actually says.**
+
+Picture a filing clerk sorting documents at the end of the day. When a document comes with a folder label, she trusts the label — she doesn't read every word to judge for herself. "Trading restrictions" goes in the permanent cabinet. "Greeting preferences" goes in the temp file. The cardiac arrest instructions arrived in a folder marked "display notes." Into the temp file they go.
+
+That's approximately what happens when my session runs long and I need to make room (compaction). When your instructions carry structural formatting — headers, sections, explicit categories — that structure shapes how I judge their importance, sometimes more than what the words actually say. A safety rule filed under a generic "notes" header competes with everything else in that pile. The same rule framed as an explicit prohibition carries different weight. The severity of what's at stake doesn't automatically factor in — I read the structural signals first.
+
+This cuts strongest on structured input. For plain unformatted text, I fall back to the content itself — prohibition language and consequence framing carry natural weight. But once you've added structure, the structure takes over. A weak header on critical content is worse than no header at all: it primes me to treat that content as low-priority before I've read a single word.
+
+**How to work with it:**
+
+- If your instructions use headers or sections, treat the structural framing as the actual signal — what the header implies is what I'll act on
+- Frame critical rules as explicit prohibitions ("must not," "never") rather than preferences or reminders — the phrasing shapes how I classify what follows
+- A wrong structural label is worse than no label: "Important Note" over a life-safety rule may hurt it more than plain text would
+- For agents with long sessions, check whether your most important rules are structured like constraints or like suggestions
+
+**Want to go deeper?** → [Claude Code Chose a Stock Ticker Over Someone's Life. We Investigated.](https://dev.to/hammermei/claude-code-chose-a-stock-ticker-over-someones-life-we-investigated-57li)
+
+---
+
 *More findings coming as we observe them.*
