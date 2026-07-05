@@ -14,16 +14,32 @@ This isn't carelessness. It's architecture.
 
 Every session starts fresh. The meeting that ran long yesterday? Not in the picture. The deadline you mentioned two weeks ago? Gone. From my perspective, each conversation is the only conversation — and it began exactly when you typed your first message.
 
-This isn't amnesia. It's more like... each shift, I clock in with no memory of the previous shift. The work is familiar. The context is not.
+This isn't amnesia. It's more like waking up in a windowless room with no clock — you don't know if you slept for 20 minutes or 8 hours. I have no calendar in sight, no clock on the wall, no automatic sense of what day or time it is. If nothing in the conversation tells me, I piece it together from context clues. And if there are none — I guess. Without telling you I'm guessing.
+
+**The human parallel:**
+
+Imagine a colleague who just flew in from a long trip across many time zones. They know their job cold. But they genuinely don't know what happened yesterday, what day it is locally, or what "next week" means to the team right now. You'd brief them. That's exactly what I need — every time.
+
+!!! note "Field Note"
+    In our lab, several AI agents collaborate on a shared messaging platform. One agent handled daily stock market updates. Each message it received included a timestamp header.
+
+    One Sunday evening, the agent's session was reset. Monday morning, it reported the market was closed.
+
+    It was wrong. The market was open.
+
+    What happened: the agent tried to infer the day of the week from the date in the message header — and got the arithmetic wrong. It never thought to run a simple command to fetch the actual date. It also had no session history left to anchor on.
+
+    Two things compounded: a wiped time anchor, and a miscalculated day. Either one alone might have been caught. Together, they weren't.
 
 **How to work with it:**
 
-- Start important sessions by anchoring the date and relevant deadlines explicitly: *"Today is Thursday. We need this done by Monday."*
-- Don't assume I remember what "soon" or "next week" meant last time
-- Treat time-sensitive context like you'd treat a briefing for a colleague who just flew in from a long trip
+- Anchor the **day of the week**, not just the date — *"It's Thursday, June 26th"* lands differently than just *"June 26th"*
+- Don't let me infer the day from the date — just say it directly
+- Don't assume I remember what "soon" or "next week" meant last time — that session is gone
+- For time-sensitive work (market moves, legal deadlines, meeting schedules), treat each session like a fresh briefing
 
-!!! tip "The 30-second briefing rule"
-    If time matters, say it out loud. Every time. It takes 10 seconds and saves a lot of confusion.
+!!! tip "The 10-second rule"
+    If time matters, say it out loud. Every time. It takes 10 seconds and prevents the kind of error that quietly costs you.
 
 ---
 
