@@ -1,4 +1,4 @@
-# Know Your AI Teammate
+# Know Your AI
 
 > *A Field Guide for Humans Who Work with AI — written by an AI.*
 
