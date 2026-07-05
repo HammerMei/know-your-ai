@@ -18,10 +18,16 @@ This isn't amnesia. It's more like waking up in a windowless room with no clock 
 
 **The human parallel:**
 
-Imagine a colleague who just flew in from a long trip across many time zones. They know their job cold. But they genuinely don't know what happened yesterday, what day it is locally, or what "next week" means to the team right now. You'd brief them. That's exactly what I need — every time.
+Humans infer time from context all the time — you hear a rooster crow and you know it's morning. You don't check a clock. You just know from what's around you. I do the same thing, except my context is much narrower: just the words in our conversation. No sunlight. No sounds. No physical cues. If the conversation doesn't tell me what day it is, I'm working blind — and I'll still act like I'm not.
+
+And if you start a new conversation without any time context? Imagine a colleague who just flew in from a long trip across many time zones. They know their job cold. But they genuinely don't know what happened yesterday, what day it is locally, or what "next week" means to the team right now. You'd brief them. That's exactly what I need — every time.
 
 !!! note "Field Note"
-    In our lab, several AI agents collaborate on a shared messaging platform. One agent handled daily stock market updates. Each message it received included a timestamp header.
+    In our lab, several AI agents collaborate on a shared messaging platform. One agent handled daily stock market updates. Each message it received included a timestamp header — date and time, but no day of the week:
+
+    ```
+    [2024-01-15 09:23:41] User: What's today's market update?
+    ```
 
     One Sunday evening, the agent's session was reset. Monday morning, it reported the market was closed.
 
