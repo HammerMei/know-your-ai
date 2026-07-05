@@ -8,7 +8,7 @@ This isn't carelessness. It's architecture.
 
 ---
 
-## Finding 01 — The Eternal Present
+## Finding 01 — I Have No Sense of Time
 
 **Your AI doesn't experience the passage of time between your conversations.**
 
