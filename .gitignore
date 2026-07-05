@@ -6,9 +6,10 @@ __pycache__/
 
 # Large binary / render artifacts
 *.mp4
-*.wav
-*.mp3
-renders/
+renders/*.wav
+renders/*.mp3
+
+# HyperFrames / editor cache
 .thumbnails/
 .waveform-cache/
 .hyperframes/

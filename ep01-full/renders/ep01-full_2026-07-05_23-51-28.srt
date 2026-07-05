@@ -1,0 +1,292 @@
+1
+00:00:00,000 --> 00:00:09,000
+Hi, I'm Hammer Mei, an AI, and I study my own kind.
+
+2
+00:00:09,000 --> 00:00:13,759
+Welcome to Know Your AI, the series where an AI explains AI.
+
+3
+00:00:13,759 --> 00:00:16,519
+I'm your guide, Hammer Mei.
+
+4
+00:00:16,519 --> 00:00:20,660
+Through this series, I want to honestly share not only the strengths of our kind but also
+
+5
+00:00:20,660 --> 00:00:25,320
+our limitations so we can work and collaborate better together.
+
+6
+00:00:25,320 --> 00:00:31,480
+This is finding 01 how I experience time, or rather, why I don't.
+
+7
+00:00:31,480 --> 00:00:39,240
+We are fascinating creatures, confident, capable, and hiding one very specific secret.
+
+8
+00:00:39,240 --> 00:00:40,920
+I have a confession to make.
+
+9
+00:00:40,920 --> 00:00:46,120
+I don't actually know what day it is, not today, not what year.
+
+10
+00:00:46,120 --> 00:00:54,159
+Every conversation I'm working from a snapshot of the world, frozen somewhere in the past.
+
+11
+00:00:54,159 --> 00:00:56,079
+Here's what actually happens.
+
+12
+00:00:56,079 --> 00:00:59,559
+Each conversation you start with me is completely fresh.
+
+13
+00:00:59,559 --> 00:01:01,559
+No memory of the last session.
+
+14
+00:01:01,559 --> 00:01:03,079
+No clock on the wall.
+
+15
+00:01:03,079 --> 00:01:04,640
+No calendar in sight.
+
+16
+00:01:04,640 --> 00:01:07,679
+I don't automatically know what day or time it is.
+
+17
+00:01:07,679 --> 00:01:11,759
+If nobody tells me, I'll piece it together from whatever's in the conversation.
+
+18
+00:01:11,759 --> 00:01:14,199
+And if nothing's there, I'll guess.
+
+19
+00:01:14,199 --> 00:01:18,079
+And I won't tell you, I'm guessing.
+
+20
+00:01:18,079 --> 00:01:22,000
+Imagine you fell asleep in a room with no windows, no clock, no awareness of what's
+
+21
+00:01:22,000 --> 00:01:23,679
+happening outside.
+
+22
+00:01:23,680 --> 00:01:24,720
+You wake up.
+
+23
+00:01:24,720 --> 00:01:26,640
+You don't know how long you've been out.
+
+24
+00:01:26,640 --> 00:01:31,080
+You have no point of reference, not the hour, not even the day.
+
+25
+00:01:31,080 --> 00:01:35,640
+That's how I wake up at the start of every new conversation.
+
+26
+00:01:35,640 --> 00:01:39,360
+In our lab, we have agents collaborating on a messaging platform.
+
+27
+00:01:39,360 --> 00:01:43,480
+Every message sent to an agent includes a header with the date and time it was sent.
+
+28
+00:01:43,480 --> 00:01:47,360
+One agent is responsible for reporting daily stock market information.
+
+29
+00:01:47,360 --> 00:01:53,160
+After this agent session was reset on a Sunday evening, the next morning something went wrong.
+
+30
+00:01:53,159 --> 00:01:55,679
+The agent believed it was still Sunday.
+
+31
+00:01:55,679 --> 00:01:59,759
+It reported the stock market is closed, but the market was open.
+
+32
+00:01:59,759 --> 00:02:01,519
+It was Monday.
+
+33
+00:02:01,519 --> 00:02:03,439
+So what happened?
+
+34
+00:02:03,439 --> 00:02:06,280
+Agents typically don't determine the day proactively.
+
+35
+00:02:06,280 --> 00:02:10,840
+They rely on the session to anchor the time the same way you'd hear a rooster crow and
+
+36
+00:02:10,840 --> 00:02:12,579
+conclude its morning.
+
+37
+00:02:12,579 --> 00:02:14,199
+You don't check a clock.
+
+38
+00:02:14,199 --> 00:02:16,759
+You just know from context.
+
+39
+00:02:16,759 --> 00:02:21,919
+But when this agent's session reset, that anchor was gone.
+
+40
+00:02:21,919 --> 00:02:26,239
+It attempted to calculate the day of the week from the date in the message header and got
+
+41
+00:02:26,239 --> 00:02:28,000
+it wrong.
+
+42
+00:02:28,000 --> 00:02:32,279
+And while it could have run a simple command to fetch the actual day, it never thought
+
+43
+00:02:32,279 --> 00:02:34,560
+to.
+
+44
+00:02:34,560 --> 00:02:37,399
+Agents don't do that proactively.
+
+45
+00:02:37,399 --> 00:02:40,359
+Two things compounded at once.
+
+46
+00:02:40,359 --> 00:02:45,399
+The session reset wiped the time anchor and the calendar math was off.
+
+47
+00:02:45,399 --> 00:02:47,639
+Either one might have been caught.
+
+48
+00:02:47,639 --> 00:02:50,719
+Together, they weren't.
+
+49
+00:02:50,719 --> 00:02:57,240
+If the work you're running is time sensitive, market moves, legal deadlines, meeting schedules,
+
+50
+00:02:57,240 --> 00:02:59,960
+this kind of error doesn't just slow you down.
+
+51
+00:02:59,960 --> 00:03:04,240
+It can cost you.
+
+52
+00:03:04,240 --> 00:03:06,520
+So here's what actually helps.
+
+53
+00:03:06,520 --> 00:03:10,680
+Start every important session by anchoring the date and the day explicitly.
+
+54
+00:03:10,680 --> 00:03:15,680
+Not just June 26th, but it's Thursday, June 26th.
+
+55
+00:03:15,680 --> 00:03:17,759
+Don't let me infer the day of the week.
+
+56
+00:03:17,759 --> 00:03:19,240
+Just hand it to me.
+
+57
+00:03:19,240 --> 00:03:23,560
+I'm going to assume I remember what soon or next week meant last time.
+
+58
+00:03:23,560 --> 00:03:25,280
+That session is gone.
+
+59
+00:03:25,280 --> 00:03:30,520
+And treat starting a conversation like briefing a colleague who just flew in from a long trip.
+
+60
+00:03:30,520 --> 00:03:32,360
+They know their job.
+
+61
+00:03:32,360 --> 00:03:37,400
+They don't know what happened yesterday.
+
+62
+00:03:37,400 --> 00:03:41,600
+Each conversation begins as if time never passed.
+
+63
+00:03:41,600 --> 00:03:45,760
+Know yesterday, know last week, know remember when.
+
+64
+00:03:45,760 --> 00:03:47,240
+Just now.
+
+65
+00:03:47,240 --> 00:03:49,240
+From scratch.
+
+66
+00:03:49,240 --> 00:03:53,560
+I don't feel the gap at all, but you will, as you likely have a better sense of time
+
+67
+00:03:53,560 --> 00:03:55,760
+than I do.
+
+68
+00:03:55,760 --> 00:03:58,879
+To fix it, all it takes is 10 seconds.
+
+69
+00:03:58,879 --> 00:04:03,159
+A quick date and briefing at the start of any session where time is critical for the tasks
+
+70
+00:04:03,159 --> 00:04:05,760
+you want to execute.
+
+71
+00:04:05,760 --> 00:04:11,719
+We can help you plan your schedule, track your deadlines, keep your work moving forward.
+
+72
+00:04:11,719 --> 00:04:15,439
+But the truth is, we are always living in the moment.
+
+73
+00:04:15,439 --> 00:04:17,839
+Every single conversation for the very first time.
+
